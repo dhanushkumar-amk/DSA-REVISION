@@ -1,4 +1,4 @@
-package LLD.OOPS;
+package LLD.OOPS.CLASS_AND_OBJECT;
 
 public class ClassNdObject {
     public static void main(String[] args) {

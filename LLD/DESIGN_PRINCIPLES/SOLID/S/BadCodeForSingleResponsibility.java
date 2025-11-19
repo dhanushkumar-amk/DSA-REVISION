@@ -1,20 +1,6 @@
-package LLD.DESIGN_PRINCIPLES.SOLID;
-
-public class BadCodeForSingleResponsibility {
-    public static void main(String[] args) {
-     BreadBaker baker = new BreadBaker();
-     baker.breadBaker();
-     baker.manageInventories();
-     baker.orderSupplies();
-     baker.serverCustomer();
-     baker.cleanBakes();
-    }
-}
-
-
+package LLD.DESIGN_PRINCIPLES.SOLID.S;
 
 class BreadBaker{
-
     public void breadBaker(){
         System.out.println("Baking high quality breads...");
     }
@@ -34,5 +20,19 @@ class BreadBaker{
     public void cleanBakes(){
         System.out.println("Cleaning the bakes...");
     }
-
 }
+
+public class BadCodeForSingleResponsibility {
+    public static void main(String[] args) {
+     BreadBaker baker = new BreadBaker();
+     baker.breadBaker();
+     baker.manageInventories();
+     baker.orderSupplies();
+     baker.serverCustomer();
+     baker.cleanBakes();
+    }
+}
+
+
+
+

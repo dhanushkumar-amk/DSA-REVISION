@@ -1,4 +1,4 @@
-package LLD.DESIGN_PRINCIPLES.SOLID;
+package LLD.DESIGN_PRINCIPLES.SOLID.S;
 
 // every class has one purpose
 
